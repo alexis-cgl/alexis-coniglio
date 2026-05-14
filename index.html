@@ -175,45 +175,104 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="container two-col">
-        <div class="reveal">
-          <h2>Contact</h2>
+<section id="contact" class="section contact-section">
+  <div class="contact-bg"></div>
+
+  <div class="container contact-grid">
+
+    <div class="contact-content reveal">
+      <p class="eyebrow">Contact</p>
+
+      <h2>Un projet, une opportunité ou simplement un échange ?</h2>
+
+      <p class="lead muted">
+        Je reste disponible pour discuter autour de la cybersécurité,
+        des systèmes, des réseaux ou de tout autre projet technique.
+      </p>
+
+      <div class="contact-card">
+        <div class="contact-card-icon">✉️</div>
+
+        <div>
+          <h3>Disponible et réactif</h3>
+
           <p class="muted">
+            Que ce soit pour une question, un projet, une alternance ou un échange
+            professionnel, je réponds généralement rapidement par mail ou LinkedIn.
           </p>
-          <div class="tip card subtle">
-            <p class="muted small">
-              Vous souhaitez échanger autour d’un projet, d’une opportunité ou obtenir davantage d’informations ? <br>
-              Je reste disponible par mail ou via LinkedIn et vous répondrai dans les meilleurs délais.
-            </p>
-          </div>
-          <div class="social">
-            <a class="social-link" href="https://www.linkedin.com/in/alexis-coniglio" target="_blank" rel="noreferrer">LinkedIn</a>
-          </div>
+        </div>
+      </div>
+
+      <div class="contact-infos">
+        <a class="contact-link"
+           href="https://www.linkedin.com/in/alexis-coniglio"
+           target="_blank"
+           rel="noreferrer">
+          <span>🔗</span>
+          LinkedIn
+        </a>
+
+        <a class="contact-link"
+           href="mailto:alexisconiglio2010@gmail.com">
+          <span>📨</span>
+          Mail direct
+        </a>
+      </div>
+
+      <div class="contact-mini-stats">
+        <div>
+          <strong>24h</strong>
+          <span>temps de réponse moyen</span>
         </div>
 
-        <form class="card reveal" id="contactForm" autocomplete="on">
-          <h3>M'envoyer un mail</h3>
-
-          <label class="field">
-            <span>Votre nom</span>
-            <input name="name" type="text" placeholder="Nom Prénom" required />
-          </label>
-
-          <label class="field">
-            <span>Votre adresse mail</span>
-            <input name="email" type="email" placeholder="exemple@gmail.com" required />
-          </label>
-
-          <label class="field">
-            <span>Votre message</span>
-            <textarea name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
-          </label>
-
-          <button class="btn primary" type="submit">Envoyer un mail</button>
-        </form>
+        <div>
+          <strong>Réseaux</strong>
+          <span>Cybersécurité & Infrastructure</span>
+        </div>
       </div>
-    </section>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" autocomplete="on">
+      <div class="form-top">
+        <p class="eyebrow">Formulaire</p>
+        <h3>M’envoyer un message</h3>
+      </div>
+
+      <label class="field">
+        <span>Votre nom</span>
+        <input
+          name="name"
+          type="text"
+          placeholder="Nom Prénom"
+          required
+        />
+      </label>
+
+      <label class="field">
+        <span>Votre adresse mail</span>
+        <input
+          name="email"
+          type="email"
+          placeholder="exemple@gmail.com"
+          required
+        />
+      </label>
+
+      <label class="field">
+        <span>Votre message</span>
+        <textarea
+          name="message"
+          rows="6"
+          placeholder="Parlez-moi de votre projet ou de votre demande..."
+          required></textarea>
+      </label>
+
+      <button class="btn primary full" type="submit">
+        Envoyer le message
+      </button>
+    </form>
+  </div>
+</section>
 
   </main>
 
