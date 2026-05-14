@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Portfolio • Mes passions</title>
+  <meta name="description" content="Portfolio personnel – thème noir & violet." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Retour à l'accueil">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Alexis CONIGLIO</span>
+          <span class="brand-sub">Réseaux et Télécoms • Cybersécurité</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+        <span class="sr-only">Ouvrir le menu</span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Navigation principale">
+        <a class="nav-link" href="index.html">Présentation</a>
+        <a class="nav-link" href="entreprise.html">Entreprise</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="passions.html">Mes passions</a>
+        <a class="nav-cta" href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+  </div>
+
+  <main id="contenu">
+
+
+
+
+
+    
+<section class="page-hero passions-hero">
+  <div class="hero-bg"></div>
+
+  <div class="container hero-grid hero-grid-tight">
+    <div class="hero-content reveal">
+      <p class="eyebrow">Mes passions</p>
+
+      <h1>
+        Ce qui m’anime <br>
+        en dehors du travail.
+      </h1>
+
+      <p class="lead muted">
+        La cybersécurité, le sport, la tech ou encore la moto occupent une place
+        importante dans mon quotidien. Ces passions reflètent aussi ma personnalité :
+        curiosité, discipline, esprit d’analyse et envie de progresser.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#mosaic">Explorer ma mosaïque</a>
+        <a class="btn ghost" href="index.html">Retour à l’accueil</a>
+      </div>
+
+      <div class="hero-mini-infos">
+        <div class="hero-chip">
+          <span>🛡️</span>
+          <p>Cybersécurité & CTF</p>
+        </div>
+
+        <div class="hero-chip">
+          <span>🏋️</span>
+          <p>Sport & discipline</p>
+        </div>
+
+        <div class="hero-chip">
+          <span>🧰</span>
+          <p>Tech & Homelab</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-side reveal">
+      <div class="hero-card">
+        <p class="hero-card-top">En quelques mots</p>
+
+        <div class="hero-lines">
+          <div>
+            <strong>Curieux</strong>
+            <span>J’aime comprendre comment les choses fonctionnent.</span>
+          </div>
+
+          <div>
+            <strong>Autonome</strong>
+            <span>J’apprends beaucoup à travers mes projets personnels.</span>
+          </div>
+
+          <div>
+            <strong>Passionné</strong>
+            <span>Je consacre une grande partie de mon temps libre à progresser.</span>
+          </div>
+        </div>
+
+        <div class="hero-bottom-stats">
+          <div>
+            <strong>20h+</strong>
+            <span>par semaine</span>
+          </div>
+
+          <div>
+            <strong>5</strong>
+            <span>univers</span>
+          </div>
+
+          <div>
+            <strong>∞</strong>
+            <span>curiosité</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="mosaic">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Mosaïque interactive</p>
+      <h2>Découvrir mes univers</h2>
+
+      <p class="muted">
+        Chaque tuile représente une passion qui occupe mon temps libre et participe
+        à mon évolution personnelle et professionnelle.
+      </p>
+    </div>
+
+    <div class="mosaic">
+      <div id="mosaicGrid" class="mosaic-grid"></div>
+
+      <aside class="mosaic-panel card" aria-live="polite">
+        <h3 id="passionTitle">Choisis une passion</h3>
+
+        <p class="muted" id="passionText">
+          Clique sur une tuile pour afficher sa description détaillée.
+        </p>
+
+        <div class="mini-stats" id="passionStats"></div>
+
+        <div class="row">
+          <a id="passionLink"
+             class="btn secondary"
+             href="#"
+             target="_blank"
+             rel="noreferrer">
+             Explorer
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container passion-why">
+    <div class="why-content reveal">
+      <p class="eyebrow">Au-delà des compétences</p>
+      <h2>Pourquoi parler de mes passions ?</h2>
+      <p class="muted">
+        Mes passions montrent aussi ma façon de progresser : apprendre par la pratique,
+        rester curieux, me fixer des objectifs et aller au bout des projets.
+      </p>
+
+      <div class="values-grid">
+        <article class="value-card">
+          <span>🎯</span>
+          <strong>Rigueur</strong>
+          <p>Avancer avec méthode et régularité.</p>
+        </article>
+        <article class="value-card">
+          <span>⚡</span>
+          <strong>Curiosité</strong>
+          <p>Tester, comprendre et apprendre en continu.</p>
+        </article>
+        <article class="value-card">
+          <span>🤝</span>
+          <strong>Esprit d’équipe</strong>
+          <p>Partager, échanger et progresser avec les autres.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="stats-panel reveal">
+      <p class="eyebrow">Quelques chiffres</p>
+      <h2>Mini-stats</h2>
+
+      <div class="stats-grid">
+        <article class="stat-card">
+          <p class="kicker">Heures / semaine</p>
+          <p class="big-number" data-counter="20">0</p>
+          <p class="muted">consacrées à mes passions</p>
+        </article>
+
+        <article class="stat-card">
+          <p class="kicker">Projets perso</p>
+          <p class="big-number" data-counter="2">0</p>
+          <p class="muted">idées, prototypes et labs</p>
+        </article>
+      </div>
+
+      <div class="mini-highlight">
+        <span>🚀</span>
+        <p>
+          Ces activités nourrissent aussi mon profil professionnel :
+          autonomie, persévérance et envie de progresser.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="footer-title">Alexis Coniglio</p>
+      <p class="muted">Portfolio — Cybersécurité, Systèmes & Réseaux</p>
+      <p class="footer-desc">
+        Étudiant en BUT Réseaux & Télécommunications, spécialisé en cybersécurité.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html#contact">Me contacter</a>
+      <a href="portfolio.html">Projets</a>
+      <a href="passions.html">Passions</a>
+      <a href="assets/docs/CV_alternance_Alexis_Coniglio.pdf" target="_blank" rel="noreferrer">CV</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span class="muted">© <span id="year"></span> Alexis Coniglio — Tous droits réservés</span>
+    <span class="footer-pill">Disponible pour échanger</span>
+  </div>
+</footer>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/passions.js"></script>
+</body>
+</html>
